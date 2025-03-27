@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p id="abc"></p>
+    <script>
+
+        var a = " ";
+        var b = 0;
+        while (b < 10) {
+            a += "<br>"+ b; 
+            b++;
+        }
+        document.getElementById("abc").innerHTML = a;
+
+
+    </script>
 </body>
 </html>
