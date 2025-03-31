@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+    <button onclick="xyz()">Generate Random Number</button>
+    <p id="abc"></p>
+    <script>
+        function xyz() {
+            var mnb = Math.floor(Math.random() * 100);
+            document.getElementById("abc").innerHTML = "Random Number: " + mnb;
+        }
+    </script>
+</body>
+</html>
